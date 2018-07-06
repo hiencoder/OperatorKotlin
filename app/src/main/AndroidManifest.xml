@@ -14,19 +14,17 @@
         <activity android:name=".BackgroundDrawableActivity" />
         <activity android:name=".EditTextActivity" />
         <activity android:name=".RadioButtonActivity" />
-        <activity android:name=".SeekbarActivity">
-
-        </activity>
-        <activity android:name=".FirstActivity">
+        <activity android:name=".SeekbarActivity" />
+        <activity android:name=".FirstActivity"></activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".AlertDialogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
-
-        </activity>
+        <activity android:name=".ProgressBarActivity"></activity>
     </application>
 
 </manifest>
